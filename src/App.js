@@ -1,6 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import OneSignal from 'react-onesignal';
+
+OneSignal.initialize('2f4f9432-f62c-45f0-91a1-2d5ef683666f', {
+  safari_web_id:"web.onesignal.auto.694eada3-a476-4a33-8c61-99aa6c1d60b0",
+});
 
 function App() {
   return (
